@@ -1,0 +1,28 @@
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#container>div{
+    height: 100px;
+    width: 100px;
+}
+
+#div1{
+    background-color: cyan;
+    margin: 10px;
+}
+
+#div2{
+    background-color: red;
+    margin: 30px;
+}
+
+#div3{
+    background-color: gray;
+    margin: 50px;
+}
