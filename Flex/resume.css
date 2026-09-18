@@ -84,4 +84,19 @@ body{
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    border: 2px olid lightgrey;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+#about>p{
+    color: grey;
+    text-align: justify;
+    margin: 20px 200px 0px 200px;
+    font-size: 20px;
+    font-weight: 530;
+    
+}
+
+#about>p>span{
+    color: #2857a4;
 }
