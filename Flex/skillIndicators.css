@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body Header */
+#body-header{
+    height: 65vh;
+    width: 100%;
+    background-image: url("macbook_mouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Horizontal List */
+.horizontal-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px;
+    margin-top: 10px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 2s;
+}
+
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+/* Name Social Container */
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#my-name{
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.social-icons li a i{
+    padding: 8px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(290,196,196,0.3);
+}
+
+/* Sections */
+section{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+section:nth-child(2n) {
+    background-color: gray;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading>span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding-top: 10px;
+}
+
+/* About Section  */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin-top: -15vh;
+}
+
+#my-image>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+#about-para{
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-para>p{
+    line-height: 25px;
+}
+
+/* Skills Section */
+.skills-display{
+    height: 200px;
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Common Color  */
+.text-highlight{
+    color: #2857a4;
+    font-weight: 600;
+}
+
+/* Common Margin Bottom */
+.mb75px{
+    margin-bottom: 75px;
+}
+
+/* Common Text Center */
+.text-center{
+    text-align: center;
+}
