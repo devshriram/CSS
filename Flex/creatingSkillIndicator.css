@@ -125,7 +125,37 @@ section:nth-child(2n) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.skill-progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+}
+
+.skill-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name>span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+
+/* Common Color Classes */
+.mb-blue{
+    background-color: #2857a4;
 }
 
 /* Common Margin Bottom */
