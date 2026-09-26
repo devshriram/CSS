@@ -1,0 +1,28 @@
+html{
+    font-size: 15px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Grid Container */
+.grid-container{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    gap: 1em;
+}
+
+/* Item */
+.item{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2857a4;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+}
